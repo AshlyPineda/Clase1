@@ -13,10 +13,12 @@ let objetoPersona2 = {
 }
 
 let arraynumeros = [1,25,34,56]
-let arrayPersona = {
+let arrayPersona = [
+     {
       id: '1877438', nombre: 'Sergio', ciudad: 'Puerto Cortes'
-
-}
+     },
+   objetoPersona1
+]
 
 arrayPersona.push(objetoPersona2)
 arrayPersona.push(50)
